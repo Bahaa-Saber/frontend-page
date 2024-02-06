@@ -1,0 +1,92 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(160, 166, 172, 0.692);
+}
+/* start header */
+header .navbar {
+    background-color: #1c6599a2;
+}
+header .navbar .navbar-brand {
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+header .navbar .navbar-brand:hover {
+    text-shadow: -8px -8px 25px #fff, 8px 8px 25px #fff;
+}
+.nav-item .dropdown-menu {
+    background-color: #e3f2fd88;
+}
+.navbar-toggler:focus, .navbar-toggler:hover {
+    box-shadow: 0 0 0 6px;
+}
+/* end header */
+/* start sec1 */
+.carousel-caption {
+    background-color: #ffffff56;
+    border-radius: 15px;
+    -webkit-border-radius: 15px;
+    -moz-border-radius: 15px;
+    -ms-border-radius: 15px;
+    -o-border-radius: 15px;
+}
+.carousel-caption h1 {
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 15px;
+    letter-spacing: 2px;
+}
+.carousel-caption .btn ,.sec4 .card-body .btn {
+    color: #d1cccc;
+}
+.carousel-caption .btn:hover ,.sec4 .card-body .btn:hover {
+    color: #ffffff;
+}
+/* end sec1 */
+/* start sec4 */
+.sec4 .img-fixed ,.sec4 .img2-fixed {
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 320px;
+}
+.sec4 .img-fixed {
+    background-image: url(../images/fxd-1.jpg);
+}
+.sec4 .img2-fixed {
+    background-image: url(../images/fxd-2.jpg);
+}
+.card>a>img {
+    opacity :1;
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+    transition: .4s;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -ms-transition: .4s;
+    -o-transition: .4s;
+}
+.card>a>img:hover {
+    opacity:.7;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+.sec4 .card-img-top {
+    width: 95%;
+    height: 220px;
+}
+/* end sec4 */
